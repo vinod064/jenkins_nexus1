@@ -6,7 +6,7 @@
 
   <groupId>jenkins_nexus</groupId>
   <artifactId>jenkins_nexus</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>jenkins_nexus Maven Webapp</name>
@@ -29,10 +29,10 @@
   </dependencies>
   <distributionManagement>
   <snapshotRepository>
-    <id>vinod</id>
-    <url>http://localhost:8080/nexus-2.14.12-02/#view-repositories;central~browsestorage</url>
+    <id>jenkins</id>
+    <url>http://localhost:8080/nexus-2.14.12-02/content/repositories/jenkins</url>
   </snapshotRepository>
-  </distributionManagement>
+</distributionManagement>
 
   <build>
     <finalName>jenkins_nexus</finalName>
