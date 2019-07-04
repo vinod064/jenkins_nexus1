@@ -69,7 +69,7 @@
         </plugin>
         <plugin>
           <groupID>org.codehaus.mojo</groupID>
-          <artifactID>tomcat7</artifactID>
+          <artifactID>nexus</artifactID>
           <version>1.0</version>
           <configuration>
             <url>http://localhost:8080/nexus-2.14.12-02/#view-repositories;central~browsestorage</url>
