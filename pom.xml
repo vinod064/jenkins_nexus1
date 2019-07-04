@@ -30,7 +30,7 @@
   <distributionManagement>
   <snapshotRepository>
     <id>vinod</id>
-    <url>http://localhost:8080/nexus-2.14.12-02/content/repositories/jenkins</url>
+    <url>http://localhost:8080/nexus-2.14.12-02/#view-repositories;central~browsestorage</url>
   </snapshotRepository>
   </distributionManagement>
 
@@ -69,12 +69,12 @@
         </plugin>
         <plugin>
           <groupID>org.codehaus.mojo</groupID>
-          <artifactID>tomcat-maven-plugin</artifactID>
+          <artifactID>tomcat7</artifactID>
           <version>1.0</version>
           <configuration>
-            <url>http://localhost:8080/nexus-2.14.12-02/content/repositories/jenkins</url>
+            <url>http://localhost:8080/nexus-2.14.12-02/#view-repositories;central~browsestorage</url>
+             <server>vinod</server>
             <path>/jenkins_nexus</path>
-            <server>vinod</server>
             </configuration>
           </plugin>
       </plugins>
