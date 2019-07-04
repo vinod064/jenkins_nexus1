@@ -29,7 +29,7 @@
   </dependencies>
   <distributionManagement>
   <snapshotRepository>
-    <id>jenkins</id>
+    <id>vinod</id>
     <url>http://localhost:8080/nexus-2.14.12-02/content/repositories/jenkins</url>
   </snapshotRepository>
   </distributionManagement>
